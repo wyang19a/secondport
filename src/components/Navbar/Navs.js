@@ -6,42 +6,16 @@ const Navs = ({ navStyle }) => {
   return (
     <ul className={`navbar-nav ${navStyle}`}>
       <li className="nav-item">
-        <Link
-          to="/homepage1"
-          className="nav-link"
-          activeClassName="active"
-          partiallyActive={true}
-        >
-          About
-        </Link>
+        <a href="#portfolio" className="nav-link">Portfolio</a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/"
-          className="nav-link"
-        >
-          Portfolio
-        </Link>
+        <a href="#about" className="nav-link">About</a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/aboutUs1"
-          className="nav-link"
-          activeClassName="active"
-          partiallyActive={true}
-        >
-          Skills
-        </Link>
+        <a href="#skills" className="nav-link">Skills</a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/portfolio3ColSt1"
-          className="nav-link"
-          activeClassName="active"
-          partiallyActive={true}
-        >
-          Contact
-        </Link>
+        <a href="#contact" className="nav-link">Contact</a>
       </li>
     </ul>
   )

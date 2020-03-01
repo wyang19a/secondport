@@ -8,11 +8,8 @@ const FooterStyle2 = () => {
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <ul className="social">
-                            <li><a href="#"><FaFacebookF/></a></li>
-                            <li><a href="#"><FaTwitter/></a></li>
-                            <li><a href="#"><FaLinkedinIn/></a></li>
-                            <li><a href="#"><FaGithub/></a></li>
-                            <li><a href="#"><FaGooglePlusG/></a></li>
+                            <li><a href="https://www.linkedin.com/in/wootae-yang/"><FaLinkedinIn/></a></li>
+                            <li><a href="https://github.com/wyang19a"><FaGithub/></a></li>
                         </ul>
                         <div className="copyright-text">
                             <p>Copyright © All Rights Reserved. Developed by <a href="#">Wootae Yang</a></p>

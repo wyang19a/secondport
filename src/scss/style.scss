@@ -17,8 +17,10 @@ Author URI: http://theshahriyar.com
 @import 'variable';
 @import 'global-styles';
 @import 'navbar';
-
-
+.tagDesc p {
+  margin-bottom: -10px;
+  word-break: break-all;
+}
 //--------------------------------------
 // Start Top Header Section
 //--------------------------------------
@@ -42,7 +44,7 @@ Author URI: http://theshahriyar.com
 }
 
 .social-top {
-	
+
 	ul.top-social {
 
     	li {
@@ -79,7 +81,7 @@ Author URI: http://theshahriyar.com
 		    	}
 		    }
     	}
-    	
+
     }
 }
 
@@ -161,7 +163,7 @@ Author URI: http://theshahriyar.com
 //---------------------------------------
 
 .rev_slider_wrapper {
-	
+
 	.tp-leftarrow.hermes {
 		position: absolute;
 		left: 0 !important;
@@ -199,7 +201,7 @@ Author URI: http://theshahriyar.com
 }
 
 #main-slide {
-	
+
 	.carousel-item {
 
 		img {
@@ -257,7 +259,7 @@ Author URI: http://theshahriyar.com
 			padding: 15px;
 		}
 
-		.fa-angle-left, 
+		.fa-angle-left,
 		.fa-angle-right{
 			position: absolute;
 			top: 40%;
@@ -324,10 +326,10 @@ Author URI: http://theshahriyar.com
 	}
 
 }
- 
 
 
-#main-slide .slider-content h2.white, 
+
+#main-slide .slider-content h2.white,
 #main-slide .slider-content h3.white {
     color: #fff;
 }
@@ -387,7 +389,7 @@ Author URI: http://theshahriyar.com
 @media (min-width : 992px) {
   #main-slide .carousel-item {
 		height: auto;
-	}  
+	}
     #main-slide .slider-content h1{
 		font-size: 68px;
 	}
@@ -397,7 +399,7 @@ Author URI: http://theshahriyar.com
 @media (min-width : 768px) and (max-width: 991px) {
   #main-slide .carousel-item {
 		height: auto;
-	} 
+	}
     #main-slide .slider-content h1{
 		font-size: 35px;
         margin-bottom: 10px;
@@ -414,16 +416,16 @@ Author URI: http://theshahriyar.com
 		margin-top: 5px;
 		font-size: 16px;
 	}
-    
+
     #main-slide .carousel-item {
         //height: 550px;
     }
-    
+
 }
 
 
 @media (max-width : 767px) {
-	
+
 	#main-slide .carousel-item {
 		height: auto;
 	}
@@ -449,17 +451,17 @@ Author URI: http://theshahriyar.com
 	#main-slide .carousel-control {
 		display: none;
 	}
-    
-    
+
+
     #main-slide .carousel-item {
         //height: 400px;
     }
-    
+
 }
 
 
 @media (max-width : 480px) {
-    
+
     #main-slide .slider-content h1{
 		font-size: 22px;
 		line-height: 26px;
@@ -477,7 +479,7 @@ Author URI: http://theshahriyar.com
 	#main-slide .carousel-control {
 		display: none;
 	}
-    
+
 }
 
 
@@ -490,7 +492,7 @@ Author URI: http://theshahriyar.com
 .feature-1 {
 	margin-right: 15px;
 	margin-bottom: 30px;
-	
+
 	h4 {
 	    font-size: 18px;
 		letter-spacing: 1px;
@@ -528,7 +530,7 @@ Author URI: http://theshahriyar.com
 
 	.feature-icon {
 		margin-right: 10px;
-		
+
 	    i {
     	    font-size: 45px;
 		    width: 45px;
@@ -585,7 +587,7 @@ Author URI: http://theshahriyar.com
 		}
 	}
 
-	
+
 }
 
 
@@ -606,7 +608,7 @@ Author URI: http://theshahriyar.com
 	}
 
 	h4 {
-		font-size: 22px; 
+		font-size: 22px;
 		margin-bottom: 20px;
 		margin-top: 30px;
 	}
@@ -667,7 +669,7 @@ Author URI: http://theshahriyar.com
 
 	position: relative;
 	margin-bottom: 40px;
-	
+
 	&:before {
 	    content: '';
 	    position: absolute;
@@ -727,7 +729,7 @@ Author URI: http://theshahriyar.com
 	&:last-child {
 
 		margin-bottom: 0;
-	
+
 		&:before {
 		    display: none;
 		}
@@ -750,7 +752,7 @@ Author URI: http://theshahriyar.com
 		margin-bottom: 25px;
 		z-index: 2;
 	}
-	
+
 	h4 {
 		position: relative;
 		z-index: 2;
@@ -841,7 +843,7 @@ Author URI: http://theshahriyar.com
 // Start Feature-6 Styling
 .feature-6 {
 	margin-bottom: 30px;
-	
+
 	img {
 		margin-bottom: 20px;
 	}
@@ -971,7 +973,7 @@ Author URI: http://theshahriyar.com
 	}
 
 	h4 {
-		font-size: 17px; 
+		font-size: 17px;
 		margin-bottom: 20px;
 		margin-top: 30px;
 	}
@@ -989,7 +991,7 @@ Author URI: http://theshahriyar.com
 //-------------------------------------
 
 .text-section {
-	
+
 	h4 {
 		font-size: 26px;
 		line-height: 36px;
@@ -1024,7 +1026,7 @@ Author URI: http://theshahriyar.com
 //-----------------------------------
 
 .call-to-action {
-	
+
 	h3 {
 		font-size: 52px;
 		text-transform: uppercase;
@@ -1052,7 +1054,7 @@ Author URI: http://theshahriyar.com
 //----------------------------------------
 
 .revson-tab {
-	
+
 	.nav-tabs {
 		float: left;
 		border-bottom: 0;
@@ -1158,8 +1160,6 @@ Author URI: http://theshahriyar.com
 
 /** End About Tab **/
 
-
-
 //-------------------------------------
 // Start Portfolio Section Styling
 //-------------------------------------
@@ -1228,7 +1228,7 @@ ul.filter li button:focus {
 
 .portfolio-post {
 	position: relative;
-	
+
 	img {
 		width: 100%;
 	}
@@ -1440,7 +1440,7 @@ ul.filter li button:focus {
 //-----------------------------------------
 .animated-counter {
 	padding-bottom: 30px;
-	
+
 	.animated-icon {
 		span {
 			font-size: 40px;
@@ -1507,8 +1507,8 @@ ul.filter li button:focus {
     border: 0;
 }
 
-.team .nav-tabs.nav-justified>.active>a, 
-.team .nav-tabs.nav-justified>.active>a:hover, 
+.team .nav-tabs.nav-justified>.active>a,
+.team .nav-tabs.nav-justified>.active>a:hover,
 .team .nav-tabs.nav-justified>.active>a:focus {
     border: 0;
 }
@@ -1519,7 +1519,7 @@ ul.filter li button:focus {
 	}
 }
 
-.team .nav>li>a:hover, 
+.team .nav>li>a:hover,
 .team .nav>li>a:focus {
     background: none;
 }
@@ -1578,110 +1578,110 @@ ul.filter li button:focus {
 }
 
 
-@media only screen 
+@media only screen
 and (max-width : 480px) {
-    
-    
+
+
     .nav-tabs.nav-justified li {
         width: 32%;
         float: left;
     }
-    
+
     .nav-tabs.nav-justified li a {
         padding: 10px 2px;
     }
-    
+
     .nav-tabs.nav-justified li img {
         max-width: 100%;
     }
-    
+
 }
 
-@media only screen 
+@media only screen
 and (max-width : 320px) {
-    
-    
+
+
     .nav-tabs.nav-justified li {
         width: 50%;
         float: left;
     }
-    
+
 }
 
-@media only screen 
-and (min-width : 481px) 
+@media only screen
+and (min-width : 481px)
 and (max-width : 600px) {
-    
+
     .nav-tabs.nav-justified li {
         width: 20%;
         float: left;
     }
-    
+
     .nav-tabs.nav-justified li a {
         padding: 10px 2px;
     }
-    
+
     .nav-tabs.nav-justified li img {
         max-width: 100%;
     }
-    
+
 }
 
-@media only screen 
-and (min-width : 601px) 
+@media only screen
+and (min-width : 601px)
 and (max-width : 800px) {
-    
+
     .nav-tabs.nav-justified li {
         width: 20%;
         float: left;
     }
-    
+
     .nav-tabs.nav-justified li a {
         padding: 10px 2px;
     }
-    
+
     .nav-tabs.nav-justified li img {
         max-width: 100%;
     }
-    
+
 }
 
-@media only screen 
-and (min-width : 801px) 
+@media only screen
+and (min-width : 801px)
 and (max-width : 991px) {
-    
+
     .nav-tabs.nav-justified li {
         width: 20%;
         float: left;
     }
-    
+
     .nav-tabs.nav-justified li a {
         padding: 10px 2px;
     }
-    
+
     .nav-tabs.nav-justified li img {
         max-width: 100%;
     }
-    
+
 }
 
-@media only screen 
-and (min-width : 992px) 
+@media only screen
+and (min-width : 992px)
 and (max-width : 1199px) {
-    
+
     .nav-tabs.nav-justified li {
         width: 20%;
         float: left;
     }
-    
+
     .nav-tabs.nav-justified li a {
         padding: 10px 2px;
     }
-    
+
     .nav-tabs.nav-justified li img {
         max-width: 100%;
     }
-    
+
 }
 
 
@@ -1862,7 +1862,7 @@ and (max-width : 1199px) {
 
 .team-4 {
 	margin-bottom: 30px;
-	
+
 	img {
 		margin-bottom: 20px;
 		width: 100%;
@@ -2101,7 +2101,7 @@ and (max-width : 1199px) {
 		}
 	}
 
-	
+
 }
 
 
@@ -2115,7 +2115,7 @@ and (max-width : 1199px) {
 	width: 90%;
 	margin: 0 auto;
 	cursor: e-resize;
-	
+
 	img {
 		width: 100px;
 		display: inline-block !important;
@@ -2141,13 +2141,15 @@ and (max-width : 1199px) {
 	}
 }
 
-
+.portfolio-section {
+  margin: 0 auto;
+}
 //-------------------------------------
 // Start Client Section
 //-------------------------------------
 
 .client-section {
-	
+background-color: #f3f3f3;
 	img {
 		//margin-bottom: 50px;
 	}
@@ -2156,7 +2158,6 @@ and (max-width : 1199px) {
 ul.logo-group {
 	overflow: hidden;
     padding: 0;
-    border: 1px solid #ddd;
     border-right: none;
     border-bottom: none;
     position: relative;
@@ -2166,8 +2167,6 @@ ul.logo-group {
 	    float: left;
 	    height: 150px;
 	    list-style: none;
-	    border-right: 1px solid #ddd;
-	    border-bottom: 1px solid #ddd;
 
 	    img {
     	    display: block;
@@ -2191,7 +2190,7 @@ ul.logo-group {
 	overflow: hidden;
 	margin-bottom: 30px;
 	box-shadow: 0 2px 3px rgba(0,0,0,.15);
-	
+
 	.pricing-head {
 		text-align: center;
 		padding: 50px 0;
@@ -2264,7 +2263,7 @@ ul.logo-group {
 	    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 	    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 	}
-	
+
 	.card-header {
 		background: #f9f9f9;
 		border: 0;
@@ -2279,7 +2278,7 @@ ul.logo-group {
 		text-transform: uppercase;
 
 		.panel-title {
-			
+
 			a {
 				display: block;
 				font-size: 16px;
@@ -2359,7 +2358,7 @@ ul.logo-group {
 
 .subscription-section {
 	color: #fff;
-	
+
 	h3 {
 		font-size: 42px;
 		margin-bottom: 40px;
@@ -2424,7 +2423,7 @@ ul.logo-group {
 	margin-bottom: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid #ddd;
-	
+
 	.blog-img {
 		position: relative;
 	    display: block;
@@ -2686,8 +2685,8 @@ ul.logo-group {
 				margin-bottom: 30px;
 			}
 
-			input[type="text"], 
-			input[type="email"], 
+			input[type="text"],
+			input[type="email"],
 			textarea {
 				width: 100%;
 				display: block;
@@ -2729,7 +2728,7 @@ ul.logo-group {
 
 
 .pagination {
-	
+
 	li {
 		a, a:hover, a:focus {
 		    color: #adadad;
@@ -2778,7 +2777,7 @@ ul.logo-group {
 
 .widget-archive,
 .widget-category {
-	
+
 	li {
 		//margin-bottom: 15px;
 		a {
@@ -2802,7 +2801,7 @@ ul.logo-group {
 		margin-bottom: 15px;
 		margin-right: 2px;
 	}
-	
+
 	a {
 	    font-size: 14px;
 	    font-style: normal !important;
@@ -2826,7 +2825,7 @@ ul.logo-group {
 }
 
 .widget-social {
-	
+
 	li {
 		font-size: 16px;
 	    line-height: 16px;
@@ -2854,12 +2853,14 @@ ul.logo-group {
 //-------------------------------------
 // Start Contact Page Section
 //-------------------------------------
-
+.contact-section {
+  background-color: f3f3f3;
+}
 .contact-form, .quotation-form {
-	
-	input[type="text"], 
-	input[type="email"], 
-	input[type="tel"], 
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
 	select {
 		width: 100%;
 		display: block;
@@ -2918,7 +2919,7 @@ ul.logo-group {
 
 .footer-text {
 	margin-bottom: 30px;
-	
+
 	p {
 		color: #bfbfbf;
 	}
@@ -2931,7 +2932,7 @@ ul.logo-group {
 		font-size: 30px;
 		margin-bottom: 30px;
 	}
-	
+
 	ul.social {
 		margin: 0;
     	padding: 0;
@@ -2980,7 +2981,7 @@ ul.logo-group {
 .gallery {
 	margin-bottom: 20px;
 	display: inline-block;
-	
+
 	li {
 	    float: left;
 		width: 31%;
@@ -3096,7 +3097,7 @@ ul.logo-group {
 
 .error-page {
 	text-align: center;
-	
+
 	h1 {
 		font-size: 120px;
 		margin-bottom: 40px;
@@ -3124,5 +3125,3 @@ ul.logo-group {
 	left: auto !important;
 	top: 10%;
 }
-
-

@@ -1,18 +1,19 @@
 import React from "react"
-import BannerImg from "../images/slideshow/banner-2.jpg"
+import BannerImg from "../images/bg/bg.jpg"
 
 import Clients from "../components/Clients"
 
 import HeaderStyle1 from "../components/Header/HeaderStyle1"
 import Banner from "../components/Slideshow/Banner"
 import SectionTitle from "../components/SectionTitle/SectionTitle"
-import PortfolioCol4Style2 from "../components/Portfolio/PortfolioCol4Style2"
+import Portfolio from "../components/Portfolio/Portfolio"
 import FooterStyle2 from "../components/Footer/FooterStyle2"
 import Testimonial from "../components/Testimonial"
 
 import {FaPhone, FaEnvelope} from "react-icons/fa"
+import TestiBg from "../images/testimonials/testi-bg.jpg"
 
-const Homepage6 = () => {
+const Home = () => {
   return (
     <>
       <HeaderStyle1 />
@@ -24,32 +25,12 @@ const Homepage6 = () => {
           Software Developer || Outdoors enthusiast
           </p>
           <a href="#" className="btn btn-primary">
-          Find out more
+          View Resume
           </a>
       </Banner>
 
-
-      {/* Start Testimonial Section*/}
-      <section
-      className="pad80 parallax"
-    >
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <SectionTitle title="About me" />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-12">
-              <Testimonial/>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Testimonial Section*/}
-
       {/* Start Portfolio Section*/}
-      <section className="pad-t80 pad-b50">
+      <section className="pad-t80 pad-b50" id="portfolio">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
@@ -57,16 +38,37 @@ const Homepage6 = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-12">
-              <PortfolioCol4Style2 />
+            <div className="col-md-10 portfolio-section">
+              <Portfolio />
             </div>
           </div>
         </div>
       </section>
       {/* End Portfolio Section*/}
 
-      {/* Start Client Section*/}
-      <section className="client-section pad80">
+      {/* Start Testimonial Section*/}
+      <section
+            id="about"
+            className="pad80 parallax"
+            style={{ backgroundImage: `url(${TestiBg})` }}
+            >
+                <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                    <SectionTitle title="About Me" titleStyle="white" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-12">
+                    <Testimonial textStyle="white"/>
+                    </div>
+                </div>
+                </div>
+            </section>
+      {/* End Testimonial Section*/}
+
+      {/* Start Skill Section*/}
+      <section className="client-section pad80" id="skills">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -80,33 +82,39 @@ const Homepage6 = () => {
           </div>
         </div>
       </section>
-      {/* End Client Section*/}
-      <section className="pad-t100 pad-b50">
+      {/* End Skill Section*/}
+
+      {/* Start Contact Section */}
+      <section className="pad-t100 pad-b50 contact-section" id="contact">
         <div className="row">
           <div className="col-md-12">
-            <SectionTitle title="Contact" />
+            <SectionTitle title="How to reach me" />
           </div>
         </div>
-           <div className="container">
-               <div className="row">
-                   <div className="col-md-6">
-                       <div className="feature-9 text-center">
-                           <span><FaPhone /></span>
-                           <h4>Call Me</h4>
-                           <p>617-990-6178</p>
-                       </div>
-                   </div>
-                   <div className="col-md-6">
-                       <div className="feature-9 text-center">
-                           <span><FaEnvelope /></span>
-                           <h4>E-mail Me</h4>
-                           <a href="mailto:wyang19a@gmail.com">wyang19a@gmail.com</a>
-                       </div>
-                   </div>
-               </div>
+          <div className="container">
+              <div className="row">
+                  <div className="col-md-6">
+                      <div className="feature-9 text-center">
+                          <span><FaPhone /></span>
+                          <h4>Call</h4>
+                          <p>617-990-6178</p>
+                      </div>
+                  </div>
+                  <div className="col-md-6">
+                      <div className="feature-9 text-center">
+                          <span><FaEnvelope /></span>
+                          <h4>E-mail</h4>
+                          <a href="mailto:wyang19a@gmail.com">wyang19a@gmail.com</a>
+                      </div>
+                  </div>
+              </div>
+              <div className="row">
+                <div className="col-md-12">
+                  <h5 className="text-center" style={{ opacity: '0.7' }}>or, use the form below!</h5>
+                  <br/>
+                </div>
+              </div>
            </div>
-       </section>
-       <section className="pad80">
            <div className="container">
                <div className="col-md-12">
                    <form id="contactForm" className="contact-form" method="post">
@@ -148,8 +156,8 @@ const Homepage6 = () => {
                    </form>
                </div>
            </div>
-       </section>
-
+      </section>
+      {/* End Contact Section*/}
       {/* Start Footer Section*/}
       <FooterStyle2 />
       {/* End FOoter Section*/}
@@ -157,4 +165,4 @@ const Homepage6 = () => {
   )
 }
 
-export default Homepage6
+export default Home

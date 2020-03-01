@@ -33,7 +33,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <header className={`${this.state.scrolled ? "navbar-fixed-top" : ""}`}>
+      <header className="navbar-fixed-top">
         <nav
           className={`navbar navbar-expand-lg sticky-top ${
             this.props.navbarStyle ? this.props.navbarStyle : ""

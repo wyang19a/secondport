@@ -1,7 +1,5 @@
 import React from "react"
 import Slider from "react-slick"
-import TestiImage1 from "../images/testimonials/1.jpg"
-import TestiImage2 from "../images/testimonials/3.jpg"
 
 const Testimonial = ({textStyle}) => {
   let settings = {
@@ -16,14 +14,13 @@ const Testimonial = ({textStyle}) => {
     <Slider {...settings} className="testimonial-carousel">
       <div className={`testimonial-item text-center ${textStyle}`}>
         <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-          sem. Curabitur aliquet quam id dui posuere blandit. Cras
-          ultricies ligula sed magna dictum porta. Curabitur arcu erat,
-          accumsan id imperdiet et, porttitor at sem. Vivamus magna
-          justo, lacinia eget consectetur sed, convallis at tellus.
+          I am a Software Developer and an outdoors enthusiast who is trained
+          to be detail-oriented and self-directed through educational and
+          professional background. I have passion for problem solving, and enjoy
+          learning about new technology. 
         </p>
-        <img src={TestiImage1} alt="" className="img-circle" />
-        <div className="name">Wootae</div>
+        <img src="https://picsum.photos/200" alt="" className="img-circle" />
+        <div className="name">Wootae Yang</div>
         <div className="designation">Software Developer</div>
       </div>
     </Slider>

@@ -3,7 +3,7 @@
 //Navbar Start
 @media screen and (min-width: 768px) {
 
-    
+
     .navbar.navbar-expand-lg {
         margin-bottom: 0;
         padding: 0;
@@ -46,18 +46,18 @@
                     -o-transition: all 0.2s ease-in-out;
                     padding: 20px 20px;
 
-                    
+
 
                     &:hover,
                     &.active {
-                        color: $brand-primary !important;                        
+                        color: $brand-primary !important;
                     }
                 }
             }
 
             li.drop {
                 position: relative;
-                
+
                 ul.drop-down {
                     margin: 0;
                     position: absolute;
@@ -135,7 +135,7 @@
                             }
                         }
 
-                        
+
 
                         input[type="search"] {
                             margin: 10px 25px;
@@ -175,7 +175,7 @@
                         top: 100%;
                     }
                 }
-                
+
                 .megadrop-down {
                     background: transparent;
                     z-index: 999;
@@ -275,7 +275,7 @@
             }
         }
 
-        &.primary-color {  
+        &.primary-color {
 
             .navbar-nav {
 
@@ -287,13 +287,13 @@
                         &:hover,
                         &.active {
                             color: #fff !important;
-                            
+
                         }
                     }
                 }
 
                 li.drop {
-      
+
                     ul.drop-down {
                         background: lighten( $brand-primary, 5% );
 
@@ -311,7 +311,7 @@
                 }
 
                 li.megadrop {
-                    
+
                     .megadrop-down {
 
                         .dropdown {
@@ -349,13 +349,13 @@
                         &:hover,
                         &.active {
                             color: $brand-primary !important;
-                            
+
                         }
                     }
                 }
 
                 li.drop {
-      
+
                     ul.drop-down {
                         background: lighten( #222, 5% );
 
@@ -373,7 +373,7 @@
                 }
 
                 li.megadrop {
-                    
+
                     .megadrop-down {
 
                         .dropdown {
@@ -407,7 +407,7 @@
             .navbar-brand {
                 margin-top: 0;
             }
-            
+
 
             .navbar-nav {
 
@@ -430,7 +430,7 @@
                             &:hover,
                             &.active {
                                 background: darken( $brand-primary, 5% );
-                                
+
                             }
                         }
                     }
@@ -448,7 +448,7 @@
                             &:hover,
                             &.active {
                                 background: darken( #222, 5% );
-                                
+
                             }
                         }
                     }
@@ -459,13 +459,13 @@
 
 
     }
-        
+
 
 }
 //Navbar End
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+
     .navbar-default {
 
         .navbar-brand {
