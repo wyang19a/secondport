@@ -40,9 +40,6 @@ export default class Navbar extends Component {
           }`}
         >
           <div className="container">
-            <Link className="navbar-brand" to="/">
-
-            </Link>
             <button
               className={`${
                 this.state.isOpen

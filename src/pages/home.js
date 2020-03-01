@@ -68,7 +68,7 @@ const Home = () => {
       {/* End Testimonial Section*/}
 
       {/* Start Skill Section*/}
-      <section className="client-section pad80" id="skills">
+      <section className="skill-section pad80" id="skills">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
