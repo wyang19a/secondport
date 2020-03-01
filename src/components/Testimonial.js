@@ -16,14 +16,14 @@ const Testimonial = ({textStyle}) => {
     <Slider {...settings} className="testimonial-carousel">
       <div className={`testimonial-item text-center ${textStyle}`}>
         <p>
-          11212Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at
           sem. Curabitur aliquet quam id dui posuere blandit. Cras
           ultricies ligula sed magna dictum porta. Curabitur arcu erat,
           accumsan id imperdiet et, porttitor at sem. Vivamus magna
           justo, lacinia eget consectetur sed, convallis at tellus.
         </p>
         <img src={TestiImage1} alt="" className="img-circle" />
-        <div className="name">Wootae Yang</div>
+        <div className="name">Wootae</div>
         <div className="designation">Software Developer</div>
       </div>
     </Slider>

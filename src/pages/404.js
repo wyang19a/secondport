@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderStyle1 from '../components/Header/HeaderStyle1'
-import FooterStyle1 from '../components/Footer/FooterStyle1'
+import FooterStyle2 from '../components/Footer/FooterStyle2'
 import ErrorBg from "../images/patterns/14.png"
 import {Link} from "gatsby"
 
@@ -18,7 +18,7 @@ const errorPage = () => {
                 </div>
             </section>
 
-            <FooterStyle1/>
+            <FooterStyle2/>
         </>
     )
 }

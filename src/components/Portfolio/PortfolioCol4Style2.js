@@ -20,7 +20,7 @@ const list = [
     id: "2",
     imgSource: Portfolio2,
     title: "Poll-ar Bear",
-    tag: "JavaScript || HTML/CSS || MongoDB/Express",
+    tag: "JavaScript || MongoDB/Express/Node.js",
   },
   {
     category: "ror",

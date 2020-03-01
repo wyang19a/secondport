@@ -1,63 +1,63 @@
 import React from "react"
 
-import Client1 from "../images/client/1.png"
-import Client2 from "../images/client/2.png"
-import Client3 from "../images/client/3.png"
-import Client4 from "../images/client/4.png"
-import Client5 from "../images/client/5.png"
-import Client6 from "../images/client/6.png"
+import ReactImg from "../images/client/react.png"
+import JqueryImg from "../images/client/jquery.png"
+import RubyImg from "../images/client/ruby.png"
+import RailsImg from "../images/client/rails.png"
+import BootstrapImg from "../images/client/bootstrap.png"
+import HtmlImg from "../images/client/html.png"
 
 const Clients = () => {
   return (
     <ul className="logo-group">
       <li className="client-logo">
         <a href="#">
-          <img src={Client1} alt="Client's Logo" />
+          <img src={ReactImg} alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client2} alt="Client's Logo" />
+          <img src={JqueryImg} alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client3} alt="Client's Logo" />
+          <img src={RubyImg} alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client4} alt="Client's Logo" />
+          <img src={RailsImg} alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client5} alt="Client's Logo" />
+          <img src={BootstrapImg} alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client6} alt="Client's Logo" />
+          <img src={HtmlImg} alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client5} alt="Client's Logo" />
+          <img src="#" alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client6} alt="Client's Logo" />
+          <img src="#" alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client5} alt="Client's Logo" />
+          <img src="#" alt="Client's Logo" />
         </a>
       </li>
       <li className="client-logo">
         <a href="#">
-          <img src={Client6} alt="Client's Logo" />
+          <img src="#" alt="Client's Logo" />
         </a>
       </li>
     </ul>
