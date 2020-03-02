@@ -12,7 +12,7 @@ const Footer = () => {
                             <li><a href="https://github.com/wyang19a"><FaGithub/></a></li>
                         </ul>
                         <div className="copyright-text">
-                            <p>Copyright © All Rights Reserved. Developed by <a href="#">Wootae Andrew Yang</a> with <FaReact style={{ color: '#61dbfb' }}/></p>
+                            <p>Copyright © All Rights Reserved. Developed by <a href="#">Wootae A. Yang</a> with <FaReact style={{ color: '#61dbfb' }}/></p>
                         </div>
                     </div>
                 </div>

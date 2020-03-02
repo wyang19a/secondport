@@ -20,7 +20,7 @@ const Home = () => {
       <Header />
       <Banner bannerstyle="text-center" bgImg={BannerImg}>
           <h1 className="heading-tag">
-          Andrew Yang
+          Wootae Yang
           </h1>
           <p className="heading-tag">
           Software Developer || Outdoors enthusiast
