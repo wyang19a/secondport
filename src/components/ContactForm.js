@@ -56,7 +56,7 @@ export default class MyForm extends React.Component {
                       </div>
                   </div>
                   {status === "SUCCESS" ? <p>Thanks! I'll get back to you as soon as I can!</p> : ''}
-                  {status === "ERROR" && <p>Ooops! There was an error. Please make sure all required fields are filled out.</p>}
+                  {status === "ERROR" && <p>Ooops! There was an error. Please make sure all required fields are properly filled out.</p>}
               </form>
           </div>
       </div>
