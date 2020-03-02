@@ -44,7 +44,7 @@ export default class Navbar extends Component {
         >
           <div className="container">
           <div className="navbar-brand brand-name" onClick={() => this.scrollToTop()}>
-              ANDREW YANG
+              WOOTAE YANG
           </div>
             <button
               className={`${
