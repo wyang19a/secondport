@@ -556,7 +556,7 @@
                     input[type="search"] {
                         margin: 10px 25px;
                         box-shadow: 0;
-                        border: 1px solid #ccc;
+                        border: 1px solid $brand-primary;
                         outline: none;
                         font-size: 13px;
                         padding-left: 10px;
@@ -616,7 +616,7 @@
         border-color: $brand-primary;
 
         .navbar-collapse.collapse.in {
-            background: #fff;
+            background: $brand-primary;
         }
     }
 

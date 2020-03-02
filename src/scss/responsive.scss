@@ -115,9 +115,15 @@
       display: inline-block;
     }
   }
+  a {
+    color: #333;
+    transition: .3s;
+    &:hover{
+      color: #006666;
+    }
+  }
   .navbar {
-    min-height: 85px;
-    background: #fff;
+    background-color: #9dbcbc;
   }
   .navbar-toggle {
     margin-top: 25px;

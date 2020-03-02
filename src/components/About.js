@@ -18,7 +18,7 @@ const About = ({textStyle}) => {
         learning about new technology.
       </p>
       <img src="https://picsum.photos/200" alt="" className="img-circle" />
-      <div className="name">Wootae Yang</div>
+      <div className="name">Andrew Yang</div>
       <div className="designation">Software Developer</div>
     </div>
   )
