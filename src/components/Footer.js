@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaGithub, FaLinkedinIn} from "react-icons/fa"
+import {FaGithub, FaLinkedinIn, FaReact} from "react-icons/fa"
 
 const Footer = () => {
     return (
@@ -12,7 +12,7 @@ const Footer = () => {
                             <li><a href="https://github.com/wyang19a"><FaGithub/></a></li>
                         </ul>
                         <div className="copyright-text">
-                            <p>Copyright © All Rights Reserved. Developed by <a href="#">Wootae Yang</a></p>
+                            <p>Copyright © All Rights Reserved. Developed by <a href="#">Wootae Yang</a> with <FaReact /></p>
                         </div>
                     </div>
                 </div>
