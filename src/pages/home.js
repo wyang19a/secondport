@@ -24,7 +24,7 @@ const Home = () => {
           Wootae Yang
           </h1>
           <p className="heading-tag">
-          Software Developer || Outdoors enthusiast
+          Software Developer || Outdoors Enthusiast
           </p>
           <a href={Resume} className="btn btn-primary">
           View Resume
