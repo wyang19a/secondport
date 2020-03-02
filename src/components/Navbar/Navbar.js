@@ -28,7 +28,12 @@ export default class Navbar extends Component {
       isOpen: !this.state.isOpen,
     })
   }
-
+  scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
   render() {
     return (
       <header className="navbar-fixed-top">
@@ -38,6 +43,9 @@ export default class Navbar extends Component {
           }`}
         >
           <div className="container">
+          <div className="navbar-brand brand-name" onClick={() => this.scrollToTop()}>
+              Wootae Yang
+          </div>
             <button
               className={`${
                 this.state.isOpen

@@ -17,6 +17,16 @@ Author URI: http://theshahriyar.com
 @import 'variable';
 @import 'global-styles';
 @import 'navbar';
+
+.brand-name {
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  &:hover {
+    color: $brand-primary
+  }
+}
+
 .tagDesc p {
   margin-bottom: -10px;
   word-break: break-all;
@@ -42,7 +52,9 @@ Author URI: http://theshahriyar.com
     	background: $brand-primary;
     }
 }
-
+.heading-tag {
+  color: white;
+}
 .social-top {
 
 	ul.top-social {
@@ -2039,7 +2051,6 @@ and (max-width : 1199px) {
 .about-item {
 	width: 90%;
 	margin: 0 auto;
-	cursor: e-resize;
 
 	img {
 		width: 100px;

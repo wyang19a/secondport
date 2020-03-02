@@ -19,10 +19,10 @@ const Home = () => {
     <>
       <Header />
       <Banner bannerstyle="text-center" bgImg={BannerImg}>
-          <h1>
+          <h1 className="heading-tag">
           Wootae Yang
           </h1>
-          <p>
+          <p className="heading-tag">
           Software Developer || Outdoors enthusiast
           </p>
           <a href={Resume} className="btn btn-primary">

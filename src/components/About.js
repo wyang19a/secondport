@@ -1,5 +1,4 @@
 import React from "react"
-import Slider from "react-slick"
 
 const About = ({textStyle}) => {
   let settings = {
@@ -11,19 +10,17 @@ const About = ({textStyle}) => {
     slidesToScroll: 1,
   }
   return (
-    <Slider {...settings} className="about-carousel">
-      <div className={`about-item text-center ${textStyle}`}>
-        <p>
-          I am a Software Developer and an outdoors enthusiast who is trained
-          to be detail-oriented and self-directed through educational and
-          professional background. I have passion for problem solving, and enjoy
-          learning about new technology.
-        </p>
-        <img src="https://picsum.photos/200" alt="" className="img-circle" />
-        <div className="name">Wootae Yang</div>
-        <div className="designation">Software Developer</div>
-      </div>
-    </Slider>
+    <div className={`about-item text-center ${textStyle}`}>
+      <p>
+        I am a Software Developer and an outdoors enthusiast who is trained
+        to be detail-oriented and self-directed through educational and
+        professional background. I have passion for problem solving, and enjoy
+        learning about new technology.
+      </p>
+      <img src="https://picsum.photos/200" alt="" className="img-circle" />
+      <div className="name">Wootae Yang</div>
+      <div className="designation">Software Developer</div>
+    </div>
   )
 }
 
