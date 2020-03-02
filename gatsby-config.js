@@ -5,8 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
-
   siteMetadata: {
     title: `Wootae Yang`,
     description: `Software Developer Portfolio`,
