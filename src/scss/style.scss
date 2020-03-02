@@ -18,6 +18,20 @@ Author URI: http://theshahriyar.com
 @import 'global-styles';
 @import 'navbar';
 
+.whitespace-section {
+  background-color: $scheme5;
+}
+.banner-image {
+  height: 100vh;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
 .brand-name {
   font-weight: 500;
   cursor: pointer;
@@ -30,6 +44,7 @@ Author URI: http://theshahriyar.com
 .tagDesc p {
   margin-bottom: -10px;
   word-break: break-all;
+  color: $scheme4;
 }
 //--------------------------------------
 // Start Top Header Section
@@ -53,7 +68,7 @@ Author URI: http://theshahriyar.com
     }
 }
 .heading-tag {
-  color: white;
+  color: $black;
 }
 .social-top {
 
@@ -187,7 +202,8 @@ Author URI: http://theshahriyar.com
 
 	.btn.btn-primary {
 		&:hover {
-			color: #fff !important;
+      background-color: black;
+      color: white !important;
 		}
 	}
 
@@ -2069,7 +2085,7 @@ and (max-width : 1199px) {
 		font-weight: bold;
 		text-transform: uppercase;
 		margin-top: 20px;
-		color: $brand-primary;
+		color: $scheme4;
 	}
 
 	&.white {

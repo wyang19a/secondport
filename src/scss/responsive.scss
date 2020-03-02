@@ -104,6 +104,10 @@
   .pad-b70 {
     padding-bottom: 25px;
   }
+  .navbar {
+    background: #edeae5;
+    border-bottom: 1px solid #6b6b6b;
+  }
   .navbar-header {
     text-align: center;
   }
@@ -121,9 +125,6 @@
     &:hover{
       color: #006666;
     }
-  }
-  .navbar {
-    background-color: #9dbcbc;
   }
   .navbar-toggle {
     margin-top: 25px;
@@ -266,6 +267,12 @@
 }
 
 @media (max-width: 480px) {
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+  }
   .navbar-default .navbar-brand {
     img {
       width: 170px;

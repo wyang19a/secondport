@@ -198,10 +198,8 @@ hr {
   transition: 0.3s;
 
   &:hover {
-    background: $black-russian-grey;
-    color: $brand-primary !important;
-  }
-
+    background-color: #446688;
+  }8
   &.white {
     background: #fff;
     color: $brand-primary !important;

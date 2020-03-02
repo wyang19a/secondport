@@ -1,17 +1,21 @@
-$brand-primary				: #006666;
-$brand-primary2				: #009688;
 $yellow						: #f6d014;
 $light-blue					: #00bcd4;
-$text-color					: #333;
-$title-color				: #343434;
-$headings-color				: #f3f3f3;
+$title-color				: #ccc;
+$headings-color				: #ccc;
 
 $white						: #ffffff;
 $light-grey					: #f7f7f7;
 $black						: #000;
 $black-russian-grey			: #24252a;
 $suva-grey					: #888888;
+$scheme1            :#026670;
+$scheme2          :#9fedd7;
+$scheme3            :#fef9c7;
+$scheme4          :#fce181;
+$scheme5             :#edeae5;
 
+$brand-primary				: $scheme1;
+$text-color					: $black;
 
 $popins-font				: 'Poppins', sans-serif;
 $fontawesome				: 'FontAwesome';

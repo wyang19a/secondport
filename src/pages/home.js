@@ -19,6 +19,7 @@ const Home = () => {
     <>
       <Header />
       <Banner bannerstyle="text-center" bgImg={BannerImg}>
+        <div className="banner-text">
           <h1 className="heading-tag">
           Wootae Yang
           </h1>
@@ -28,10 +29,11 @@ const Home = () => {
           <a href={Resume} className="btn btn-primary">
           View Resume
           </a>
+        </div>
       </Banner>
 
       {/* Start Portfolio Section*/}
-      <section className="pad-t80 pad-b50" id="portfolio">
+      <section className="pad-t80 pad-b50 whitespace-section" id="portfolio">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
