@@ -1,13 +1,13 @@
 import React from 'react'
-import HeaderStyle1 from '../components/Header/HeaderStyle1'
-import FooterStyle2 from '../components/Footer/FooterStyle2'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import ErrorBg from "../images/patterns/14.png"
 import {Link} from "gatsby"
 
 const errorPage = () => {
     return (
         <>
-            <HeaderStyle1 />
+            <Header />
 
             <section className="pad-t80 pad-b100" style={{backgroundImage: `url(${ErrorBg})`, backgroundRepeat: "repeat"}}>
                 <div className="error-page">
@@ -18,7 +18,7 @@ const errorPage = () => {
                 </div>
             </section>
 
-            <FooterStyle2/>
+            <Footer/>
         </>
     )
 }

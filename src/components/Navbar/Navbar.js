@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-
-import { Link } from "gatsby"
 import Navs from "./Navs"
 import { FaBars } from "react-icons/fa"
 

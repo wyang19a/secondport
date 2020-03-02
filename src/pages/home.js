@@ -1,22 +1,23 @@
 import React from "react"
 import BannerImg from "../images/bg/bg.jpg"
 
-import Clients from "../components/Clients"
+import Skills from "../components/Skills"
 
-import HeaderStyle1 from "../components/Header/HeaderStyle1"
-import Banner from "../components/Slideshow/Banner"
-import SectionTitle from "../components/SectionTitle/SectionTitle"
-import Portfolio from "../components/Portfolio/Portfolio"
-import FooterStyle2 from "../components/Footer/FooterStyle2"
-import Testimonial from "../components/Testimonial"
+import Header from "../components/Header"
+import Banner from "../components/Banner"
+import SectionTitle from "../components/SectionTitle"
+import Portfolio from "../components/Portfolio"
+import Footer from "../components/Footer"
+import About from "../components/About"
 
 import {FaPhone, FaEnvelope} from "react-icons/fa"
-import TestiBg from "../images/testimonials/testi-bg.jpg"
-
+import AboutBg from "../images/bg/About-bg.jpg"
+import Resume from "../resume/WootaeResume.pdf"
+import ContactForm from "../components/ContactForm"
 const Home = () => {
   return (
     <>
-      <HeaderStyle1 />
+      <Header />
       <Banner bannerstyle="text-center" bgImg={BannerImg}>
           <h1>
           Wootae Yang
@@ -24,7 +25,7 @@ const Home = () => {
           <p>
           Software Developer || Outdoors enthusiast
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href={Resume} className="btn btn-primary">
           View Resume
           </a>
       </Banner>
@@ -46,11 +47,11 @@ const Home = () => {
       </section>
       {/* End Portfolio Section*/}
 
-      {/* Start Testimonial Section*/}
+      {/* Start About Section*/}
       <section
             id="about"
             className="pad80 parallax"
-            style={{ backgroundImage: `url(${TestiBg})` }}
+            style={{ backgroundImage: `url(${AboutBg})` }}
             >
                 <div className="container">
                 <div className="row">
@@ -60,12 +61,12 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                    <Testimonial textStyle="white"/>
+                    <About textStyle="white"/>
                     </div>
                 </div>
                 </div>
             </section>
-      {/* End Testimonial Section*/}
+      {/* End About Section*/}
 
       {/* Start Skill Section*/}
       <section className="skill-section pad80" id="skills">
@@ -77,7 +78,7 @@ const Home = () => {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <Clients />
+              <Skills />
             </div>
           </div>
         </div>
@@ -115,51 +116,11 @@ const Home = () => {
                 </div>
               </div>
            </div>
-           <div className="container">
-               <div className="col-md-12">
-                   <form id="contactForm" className="contact-form" method="post">
-
-                       <div className="messages"></div>
-
-                       <div className="controls">
-
-                           <div className="row">
-                               <div className="col-md-6">
-                                   <div className="form-group">
-                                       <input id="form_name" type="text" name="name" className="form-control" placeholder="Name *" required="required" />
-                                   </div>
-                                   <div className="form-group">
-                                       <input id="form_email" type="email" name="email" className="form-control" placeholder="Email *" required="required" />
-                                   </div>
-                                   <div className="form-group">
-                                       <input id="form_phone" type="tel" name="phone" className="form-control" placeholder="Phone"/>
-                                   </div>
-                                   <div className="form-group">
-                                       <input id="form_subject" type="text" name="subject" className="form-control" placeholder="Subject *" required="required" />
-                                   </div>
-                               </div>
-                               <div className="col-md-6">
-                                   <div className="form-group">
-                                       <textarea id="form_message" name="message" className="form-control" placeholder="Message *" required="required" style={{minHeight: "175px"}}></textarea>
-                                   </div>
-                                   <input type="submit" className="btn btn-primary" value="Send message" />
-                               </div>
-                           </div>
-
-                           <div className="row">
-                               <div className="col-md-12">
-                                   <p className="text-muted"><strong>*</strong> These fields are required.</p>
-                               </div>
-                           </div>
-                       </div>
-
-                   </form>
-               </div>
-           </div>
+           <ContactForm />
       </section>
       {/* End Contact Section*/}
       {/* Start Footer Section*/}
-      <FooterStyle2 />
+      <Footer />
       {/* End FOoter Section*/}
     </>
   )
